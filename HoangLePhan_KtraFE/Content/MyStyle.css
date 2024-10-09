@@ -1,0 +1,204 @@
+﻿
+html {
+    background-color: rgb(241, 241, 241);
+}
+
+header {
+    background-color: white;
+    margin: -0.5rem;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 20px;
+    color: rgb(24, 163, 243);
+    font: 20px solid;
+}
+
+.logoleft img {
+    height: 24px;
+    padding-left: 40px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+
+.logoright img {
+    height: 35px;
+    width: 150px;
+    padding: 10px 45px;
+}
+
+#container {
+    display: flex;
+}
+
+#contentLeft {
+    background-color: transparent;
+    margin: auto 3rem;
+    padding-top: 10px;
+    width: 70%;
+}
+
+    #contentLeft p {
+        padding: 10px;
+        margin: 0px
+    }
+
+#payment {
+    background-color: white;
+    margin-top: 1rem;
+}
+
+#delivery {
+    background-color: white;
+    margin-top: -1rem;
+    width: 100%;
+}
+
+#choice1 {
+    background-color: rgb(233, 244, 248);
+    padding: 10px;
+    margin: 1px;
+    border-radius: 5px;
+    border: 1px solid rgb(156, 177, 177);
+    width: 50%;
+}
+
+.hl_deli {
+    color: rgb(13, 218, 13);
+    background-color: white;
+    font: 15px bold rgb(13, 218, 13);
+    padding: 1px 5px;
+}
+
+.hl_green {
+    color: rgb(13, 218, 13);
+    font-weight: bold;
+}
+
+.smalldiscount {
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+    .smalldiscount div {
+        font: 10px black;
+    }
+
+h4 {
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-bottom: 0rem;
+    font-size: larger;
+}
+
+fieldset {
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+}
+
+#choice2 {
+    justify-content: space-between;
+    display: flex;
+}
+
+#Smallerchoice2 {
+    justify-content: space-between;
+    display: inline-block;
+}
+
+.productimg {
+    width: 40px;
+}
+
+fieldset {
+    border: 1px groove lightgray;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.ghichu {
+    background-color: rgb(241, 241, 241);
+    border-radius: 3px;
+    color: grey;
+}
+
+.paybutton {
+    background-color: transparent;
+    color: rgb(35, 144, 233);
+    border: 2px solid rgb(35, 144, 233);
+    width: 15%;
+    height: 1.8rem;
+    margin: 10px 0px 20px 50px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.bonus {
+    background-color: rgb(231, 244, 248);
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 233px;
+    color: rgb(35, 144, 233);
+}
+
+.table {
+    display: table;
+    border-spacing: 8px;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    background-color: white;
+    height: 2rem;
+    width: 14rem;
+    padding: 10px;
+}
+
+    .cell div {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+.method {
+    padding: 20px 0px 0px 20px;
+    font-size: 0.9rem;
+}
+
+    .method h4 {
+        font-size: 1.2rem;
+    }
+
+.option {
+    margin: 20px 20px 20px 10px;
+}
+
+.smallBonus {
+    width: 40%;
+    height: 30%;
+    margin-top: 0.2rem;
+}
+
+.small {
+    font-size: small;
+}
+
+.contentRight {
+    background-color: transparent;
+    width: 30%;
+    padding-top: 15px;
+    margin-left: -1.5rem;
+    margin-right: 3rem;
+}
+
+.applyDis {
+    background-color: white;
+    padding: 15px;
+    margin-top: 1rem;
+    width: 100%;
+}
